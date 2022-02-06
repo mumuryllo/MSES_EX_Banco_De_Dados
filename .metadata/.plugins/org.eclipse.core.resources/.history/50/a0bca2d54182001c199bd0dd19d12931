@@ -1,0 +1,7 @@
+public class Container {
+	
+	import java.util.ArrayList;
+	import java.util.List;
+	
+	private ArrayList<User>
+}
