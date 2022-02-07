@@ -1,8 +1,3 @@
 INDEX VERSION 1.4+C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3859982991.index
 3912972792.index
 106113768.index
-1356843379.index
-1168419039.index
-3403635832.index
-3173175303.index

@@ -1,100 +1,128 @@
+
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.List;
 
-import org.apache.taglibs.standard.lang.jstl.test.beans.PublicBean1;
 
-public class UserDao {
-private String jdbcURL= "jdbc:mysql://localhost:3306/exemplo1?useSSL=false";
-private String jdbcUsername= "admin";
-private String jdbcPassword= "admin";
-
-private static final String INSERT_SQL= "INSERT INTO users" + "(name,email,country) Values" + "(?,?,?)";
-private static final String SELECT_ALL_USERS_SQL= "select * from users";
-private static final String UPDATE_SQL= "update users set name =?, email=?, country=?, where id=?;";
-private static final String DELETE_SQL="delete from users where id=?;";
-
-protected Connection getConnection() {
-	Connection connection=null;
-	try {
-		Class.forName("com.mysql.jdbc.Driver");
-		connection = DriverManager.getConnection(jdbcURL,jdbcUsername,jdbcPassword);
-	} catch (SQLException e) {
-	    e.printStackTrace();
-	} catch (ClassNotFoundException e) {
-		// TODO: handle exception
-		e.printStackTrace();
-	}    
-	return connection;
-    }
-
-// inserir um usuario novo
-  public void insert(User user) throws SQLException {
-	  try(Connection connection = getConnection();
-			 PreparedStatement preparedStatement = connection.prepareStatement(INSERT_SQL);){
-		    preparedStatement.setString(1, user.getName());
-		    preparedStatement.setString(2, user.getEmail());
-		    preparedStatement.setString(3, user.getCountry());
-		    preparedStatement.executeUpdate();
-	  } catch (Exception e) {
-		  e.printStackTrace();
-	  }
-  }
-  
-	 // atualizar usuarios
-	 public boolean updateUser(User user)  throws SQLException{
-		 boolean rowUpdated;
-		 try (Connection connection = getConnection();
-			PreparedStatement statement = connection.prepareStatement(UPDATE_SQL);){
-			statement.setString(1, user.getName());
-		    statement.setString(2, user.getEmail());
-			statement.setString(3, user.getCountry());
-			statement.setInt(4, user.getId());
+public class UserDAO {
+	
+	
+	
+	public UserDAO() {
+	}
+	
+	public void insert(User abobrinhaUser) {
+		Conexao c = Conexao.getInstance();
+		Connection con = c.getConnection();
+		
+		try {
+			PreparedStatement p = con.prepareStatement("insert into users (nome, pais, email) values (?, ?, ?)");
+			p.setString(1, abobrinhaUser.getNome());
+			p.setString(2, abobrinhaUser.getPais());
+			p.setString(3, abobrinhaUser.getEmail());
 			
-			rowUpdated = statement.executeUpdate() > 0;	 
-				 
-		 }	  
-        return rowUpdated;
-   }
-   
-	// Selecionar todos os usuarios
-	 public List<User> selectAllUsers() {
-			List<User> users = new ArrayList<>();
-			try (Connection connection = getConnection();
-				PreparedStatement preparedStatement = connection.prepareStatement(SELECT_ALL_USERS_SQL);){
-		        System.out.println(preparedStatement);
-		        ResultSet rs = preparedStatement.executeQuery();
-		      
-		        while (rs.next()) {
-		        	int id =rs.getInt("id");
-		        	String name = rs.getString("name");
-		        	String email = rs.getString("email");
-		        	String country = rs.getString("country");
-		        	users.add(new User(id,name,email,country));
-		        }
-		        
-			} catch (SQLException e) {
-				e.printStackTrace();
+			
+			System.out.println(p);
+			p.executeUpdate();
+			System.out.println("Comando executado");
+			p.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public ArrayList<User> selectAll(){
+		Conexao c = Conexao.getInstance();
+		Connection con = c.getConnection();
+		ArrayList<User> lista = new ArrayList<User>();
+		try {
+			PreparedStatement p = con.prepareStatement("select * from users");
+			ResultSet r = p.executeQuery();			
+			
+			while (r.next()) {
+				Integer id = r.getInt("id");
+				String nome = r.getString("nome");
+				String pais = r.getString("pais");
+				String email = r.getString("email");
+				User u = new User(nome, pais, email);
+				u.setId(id);
+				lista.add(u);
 			}
-			return users;	 
- }
-	 // deletar usuarios
-	 public boolean deleteUser(int id)  throws SQLException{
-	 boolean rowDeleted;	 
-	 try (Connection connection = getConnection();
-	 PreparedStatement statement = connection.prepareStatement(DELETE_SQL);){
-		statement.setInt(1, id);
-		rowDeleted = statement.executeUpdate()>0;
-	 }
-	 return rowDeleted;
+			r.close();
+			p.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return lista;
+	}
+	
+	public void removeUser(Integer id) {
+		Conexao c = Conexao.getInstance();
+		Connection con = c.getConnection();
+		
+		try {
+			PreparedStatement p = con.prepareStatement("delete from users where id = ?");
+			p.setInt(1, id);
+			System.out.println(p);
+			p.executeUpdate();
+			System.out.println("Comando executado");
+			p.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	//public void updateUser(Integer id, String newName) {
+	public void updateUser(User updateUser) {
+		Conexao c = Conexao.getInstance();
+		Connection con = c.getConnection();
+		
+		try {
+			PreparedStatement p = con.prepareStatement("update users set nome = ?,  pais = ?, email = ? where id = ?");
+			p.setString(1, updateUser.getNome());
+			p.setString(2, updateUser.getPais());
+			p.setString(3, updateUser.getEmail());
+			p.setInt(4, updateUser.getId());
+			System.out.println(p);
+			p.executeUpdate();
+			System.out.println("Comando executado");
+			p.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+		
+	public User selectById(Integer id) {
+		Conexao c = Conexao.getInstance();
+		Connection con = c.getConnection();
+		User u = null;
+		try {
+			PreparedStatement p = con.prepareStatement("select * from users where id = ?");
+			p.setInt(1, id);
+			ResultSet r = p.executeQuery();			
+			
+			
+			while (r.next()) {
+				//Integer id2 = r.getInt("id");
+				String nome = r.getString("nome");
+				String pais = r.getString("pais");
+				String email = r.getString("email");
+				u = new User(nome, pais, email);
+				u.setId(id);
+			}
+			r.close();
+			p.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return u;
+	}
 }
-
-}
-
-
-
-

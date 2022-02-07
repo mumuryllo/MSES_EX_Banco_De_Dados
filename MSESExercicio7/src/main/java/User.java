@@ -1,49 +1,50 @@
+
 public class User {
-private int id;
-private String name;
-private String email;
-private String country;
+	
+	private Integer id;
+	private String nome;
+	private String pais;
+	private String email;
 
-public int getId() {
-	return id;
-}
-
-public void setId(int id) {
-	this.id = id;
-}
-
-public String getName() {
-	return name;
-}
-
-public void setName(String name) {
-	this.name = name;
-}
-
-public String getEmail() {
-	return email;
-}
-
-public void setEmail(String email) {
-	this.email = email;
-}
-
-public String getCountry() {
-	return country;
-}
-
-public void setCountry(String country) {
-	this.country = country;
-}
-
-public User(int id, String name, String email, String country) {
-	super();
-	this.id = id;
-	this.name = name;
-	this.email = email;
-	this.country = country;
-}
-
-
-
+	public User(String nome, String pais, String email) {
+		this.nome = nome;
+		this.pais = pais;
+		this.email = email;
+	}
+	
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	
+	public Integer getId() {
+		return this.id;
+	}
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	public String getEmail() {
+		return this.email;
+	}
+	
+	public void setPais(String pais) {
+		this.pais = pais;
+	}
+	
+	public String getPais() {
+		return this.pais;
+	}
+	
+	public String toString() {
+		return this.id + " - " + this.nome + " - " + this.email + " - " + this.pais; 
+	}
 }

@@ -1,87 +1,52 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-        <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-    
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 <head>
-<link href="webjars/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet"
+	href="webjars/bootstrap/5.1.3/css/bootstrap.min.css">
 </head>
 <body>
 
-<header>
-<nav class=" navbar navbar-expand-md navbar-dark" style="background-color: darkblue;" >
-<div>
-<h1 style="color:white ;">Cadastro de Usuários</h1>
-</div>
-<ul class="navbar-nav">
-<li><a href="<%=request.getContextPath()%>/lista" class="nav-link">
-Usuarios</a></li>
-</ul>
-</nav>
-</header>
-
-<br>
-
-<div class="container col-md-5">
-<div class="card">
-<div class="card-body">
-<c:if test="${ user != null}">
-<form action="atualizar" method="post">
-</c:if>
-<c:if test="${user == null}">
-<form action="inserir" method="post">
-</c:if>
-
-<caption>
-<h2>
-
-<c:if test="${ user != null}">
-Editar
-</c:if>
-<c:if test="${user == null}">
-Adicionar
-</c:if>
-</h2>
-</caption>
-
-<c:if test="${user != null}">
- <input type="hidden" name="id" value='<c:out value="${user.id}"></c:out>'>
-</c:if>
-
-<fieldset class="form-group">
-<label>Nome</label> <input type="text"
-value='<c:out value="${user.name}"></c:out>'
-class="form-control"
-name="nome" required="required"
->
-</fieldset>
-
-
-
-<fieldset class="form-group">
-<label>Nome</label> <input type="text"
-value='<c:out value="${user.email}"></c:out>'
-class="form-control"
-name="email"
->
-</fieldset>
-
-
-<fieldset class="form-group">
-<label>Nome</label> <input type="text"
-value='<c:out value="${user.country}"></c:out>'
-class="form-control"
-name="country" 
->
-</fieldset>
-
-<button type="submit" class="btn btn-success">Salvar</button>
-
-</div>
-</div>
+<div class="container">
+    <h1 class="title">Lista de Usuários</h1>
+    <hr>
+	<form action="CRUDController" method="post">
+		<button class="btn btn-primary"type="submit" name="option" value="insertForm">Cadastrar Usuário</button>
+	</form>
+	
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">Id</th>
+					<th scope="col">Nome</th>
+					<th scope="col">Email</th>
+					<th scope="col">País</th>
+					<th scope="col">Ações</th>
+				</tr>
+			</thead>
+			<tbody>
+				<c:forEach var="usuario" items="${listUser}">
+					<tr>
+						<form action="CRUDController" method="post">
+							<td>
+								<c:out value="${usuario.id}"/>
+								<input type="hidden" name="id" value="${usuario.id}"/>
+							</td>
+							<td><c:out value="${usuario.nome}"/></td>
+							<td><c:out value="${usuario.email}"/></td>
+							<td><c:out value="${usuario.pais}"/></td>
+							<td><button class="btn btn-primary" type="submit" name="option" value="delete" style="margin-right: 10px;" >Deletar</button>
+                                <button class="btn btn-primary" type="submit" name="option" value="updateForm">Atualizar</button>
+                            </td>
+						</form>
+					</tr>
+				</c:forEach>
+			</tbody>
+		</table>
 </div>
 </body>
 </html>

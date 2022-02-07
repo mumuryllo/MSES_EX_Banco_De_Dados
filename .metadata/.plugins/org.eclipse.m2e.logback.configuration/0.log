@@ -338,3 +338,147 @@
 2022-02-06 22:39:10,718 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
 2022-02-06 22:39:25,916 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-02-06 22:39:25,918 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 22:39:25,924 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 22:39:25,925 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 22:45:35,640 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 22:45:35,642 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 22:45:35,643 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 22:45:35,644 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:03:48,678 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:03:48,680 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:03:48,682 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:03:48,683 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:06:53,792 [Worker-117: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.rd.ProjetoFinal2:LBProjetoFinal2:0.0.1-SNAPSHOT @ C:\Users\Muryllo\Desktop\Nova pasta\LB-ProjetoFinal2-CRUD\pom.xml.
+2022-02-06 23:06:54,476 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:06:54,478 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Nova pasta\LB-ProjetoFinal2-CRUD\src\main\resources
+2022-02-06 23:06:54,480 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:06:54,481 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Nova pasta\LB-ProjetoFinal2-CRUD\src\test\resources
+2022-02-06 23:06:54,782 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:06:54,783 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Nova pasta\LB-ProjetoFinal2-CRUD\src\main\resources
+2022-02-06 23:06:54,786 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:06:54,787 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Nova pasta\LB-ProjetoFinal2-CRUD\src\test\resources
+2022-02-06 23:08:04,679 [Worker-114: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.rd.ProjetoFinal2:LBProjetoFinal2:0.0.1-SNAPSHOT @ C:\Users\Muryllo\Desktop\Nova pasta\LB-ProjetoFinal2-CRUD\pom.xml.
+2022-02-06 23:08:04,811 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:08:04,813 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Nova pasta\LB-ProjetoFinal2-CRUD\src\main\resources
+2022-02-06 23:08:04,816 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:08:04,817 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Nova pasta\LB-ProjetoFinal2-CRUD\src\test\resources
+2022-02-06 23:08:05,917 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:08:05,919 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Nova pasta\LB-ProjetoFinal2-CRUD\src\main\resources
+2022-02-06 23:08:05,920 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:08:05,921 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Nova pasta\LB-ProjetoFinal2-CRUD\src\test\resources
+2022-02-06 23:09:37,422 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:09:37,424 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:09:37,425 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:09:37,426 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:10:00,848 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:10:00,850 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:10:00,852 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:10:00,853 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:11:11,446 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:11:11,447 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:11:11,449 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:11:11,450 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:12:50,809 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:12:50,810 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:12:50,812 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:12:50,814 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:13:03,403 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:13:03,405 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:13:03,406 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:13:03,407 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:13:11,484 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:13:11,486 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:13:11,487 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:13:11,489 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:13:16,146 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:13:16,147 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:13:16,150 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:13:16,151 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:14:03,368 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:14:03,369 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:14:03,372 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:14:03,373 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:14:23,122 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:14:23,124 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:14:23,125 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:14:23,125 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:14:32,417 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:14:32,418 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:14:32,418 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:14:32,420 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:15:24,569 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:15:24,571 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:15:24,573 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:15:24,574 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:15:35,772 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:15:35,773 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:15:35,774 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:15:35,775 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:15:59,705 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:15:59,706 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:15:59,708 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:15:59,709 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:17:21,131 [Worker-118: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:17:21,134 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:17:21,137 [Worker-118: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:17:21,138 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:17:31,582 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:17:31,584 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:17:31,585 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:17:31,586 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:18:54,686 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:18:54,688 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:18:54,689 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:18:54,691 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:19:04,219 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:19:04,220 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:19:04,221 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:19:04,223 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:19:09,828 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:19:09,829 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:19:09,830 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:19:09,832 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:19:39,290 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:19:39,291 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:19:39,293 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:19:39,294 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:20:21,057 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:20:21,059 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:20:21,060 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:20:21,061 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:20:27,730 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:20:27,731 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:20:27,732 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:20:27,733 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:22:04,561 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:22:04,562 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:22:04,564 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:22:04,565 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:22:33,934 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:22:33,935 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:22:33,936 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:22:33,937 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:22:57,288 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:22:57,290 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:22:57,291 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:22:57,293 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:23:19,854 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:23:19,856 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:23:19,857 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:23:19,858 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:25:13,410 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:25:13,411 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:25:13,412 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:25:13,413 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:29:03,225 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:29:03,226 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:29:03,227 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:29:03,228 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:33:26,903 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:33:26,904 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:33:26,905 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:33:26,906 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
+2022-02-06 23:33:40,635 [Worker-129: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:33:40,637 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\main\resources
+2022-02-06 23:33:40,638 [Worker-129: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-06 23:33:40,639 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\MSESExercicio7\src\test\resources
