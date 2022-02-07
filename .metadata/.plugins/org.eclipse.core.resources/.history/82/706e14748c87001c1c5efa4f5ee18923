@@ -1,0 +1,116 @@
+
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.RequestDispatcher;
+/**
+ * Servlet implementation class Controller
+ */
+@WebServlet("/")
+public class Controller extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private UserDao userDao;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public Controller() {
+    this.userDao = new UserDao();
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	this.doGet(request, response);
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	String acoes = request.getServletPath();
+	
+	switch (acoes) {
+	case "/novo":
+		novoFormulario(request, response);
+		break;
+		
+	case "/inserir":
+		try {
+		addUser(request, response);
+	}  catch (SQLException e) {
+		// TODO: handle exception
+		e.printStackTrace();
+	}
+		break;
+		
+	case "/atualizar":
+		try {
+			updateUser(request, response);
+		}  catch (SQLException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		break;
+		
+	case "/deletar":
+		try {
+			deleteUser(request, response);
+		}  catch (SQLException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		break;
+		
+		default:
+			break;
+	}
+	}
+
+	
+	
+	
+	private void updateUser(HttpServletRequest request, HttpServletResponse response)
+			throws  IOException, SQLException{
+		    int id = Integer.parseInt(request.getParameter("id")); 
+			String name = request.getParameter("nome");
+			String email = request.getParameter("email");
+			String country = request.getParameter("pais");
+	        User user= new User(id,name, email, country);
+	        userDao.updateUser(user);
+	        response.sendRedirect("lista");
+		}
+	
+	
+	
+	private void deleteUser(HttpServletRequest request, HttpServletResponse response)
+			throws  IOException, SQLException{
+		int id= Integer.parseInt(request.getParameter("id"));
+		userDao.deleteUser(id);
+		response.sendRedirect("lista");
+	}
+	
+	private void novoFormulario(HttpServletRequest request, HttpServletResponse response)
+	throws ServletException, IOException {
+		RequestDispatcher dispatcher = request.getRequestDispatcher("Usuario.jsp");
+		dispatcher.forward(request, response);
+	}
+
+	private void addUser(HttpServletRequest request, HttpServletResponse response)
+		throws  IOException, SQLException{
+		String name = request.getParameter("nome");
+		String email = request.getParameter("email");
+		String country = request.getParameter("pais");
+        int id = 0;
+		User novoUsuario= new User(id,name, email, country);
+        userDao.insert(novoUsuario);
+        response.sendRedirect("lista");
+	}
+}

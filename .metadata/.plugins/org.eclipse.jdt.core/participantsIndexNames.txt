@@ -1,4 +1,6 @@
 INDEX VERSION 1.131
+C:\Users\Muryllo\Desktop\Ex_Banco_De_Dados\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\106113768.index
+\MSESExercicio7\src\main\java
 C:\Users\Muryllo\Desktop\MSES_Exercicio_Conexao_Banco_de_Dados\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\106113768.index
 \MSESExercicio7\src\main\java
 C:\Users\Muryllo\Desktop\MSESExercicio7\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\106113768.index
